@@ -1,6 +1,6 @@
 {
-  "name": "use-wallet",
-  "version": "0.13.4",
+  "name": "@0xgabi/use-wallet",
+  "version": "0.14.1",
   "author": "Aragon Association <legal@aragon.org>",
   "license": "MIT",
   "main": "dist/cjs/index.js",

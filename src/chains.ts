@@ -69,30 +69,6 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
     },
   ],
   [
-    3,
-    {
-      id: 3,
-      nativeCurrency: ETH,
-      type: 'ropsten',
-      fullName: 'Ropsten Testnet',
-      shortName: 'Ropsten',
-      explorerUrl: `https://ropsten.etherscan.io`,
-      testnet: true,
-    },
-  ],
-  [
-    4,
-    {
-      id: 4,
-      nativeCurrency: ETH,
-      type: 'rinkeby',
-      fullName: 'Rinkeby Testnet',
-      shortName: 'Rinkeby',
-      explorerUrl: `https://rinkeby.etherscan.io`,
-      testnet: true,
-    },
-  ],
-  [
     5,
     {
       id: 5,
@@ -101,6 +77,30 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
       fullName: 'Goerli Testnet',
       shortName: 'Goerli',
       explorerUrl: `https://goerli.etherscan.io`,
+      testnet: true,
+    },
+  ],
+  [
+    10,
+    {
+      id: 10,
+      nativeCurrency: ETH,
+      type: 'optimism',
+      fullName: 'OP Mainnet',
+      shortName: 'Optimism',
+      explorerUrl: `https://optimistic.etherscan.io/`,
+      testnet: false,
+    },
+  ],
+  [
+    11155111,
+    {
+      id: 11155111,
+      nativeCurrency: ETH,
+      type: 'sepolia',
+      fullName: 'Sepolia Testnet',
+      shortName: 'Sepolia',
+      explorerUrl: `https://sepolia.etherscan.io`,
       testnet: true,
     },
   ],
