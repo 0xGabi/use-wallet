@@ -40,24 +40,6 @@ const PROVIDERS = new Map<string, Provider>(
       },
     },
     {
-      id: 'status',
-      name: 'Status',
-      type: 'Mobile',
-      image: `${BASE_URL}/Status.png`,
-      strings: {
-        'your Ethereum wallet': 'Status',
-      },
-    },
-    {
-      id: 'cipher',
-      name: 'Cipher',
-      type: 'Mobile',
-      image: `${BASE_URL}/Cipher.png`,
-      strings: {
-        'your Ethereum wallet': 'Cipher',
-      },
-    },
-    {
       id: 'fortmatic',
       name: 'Fortmatic',
       type: 'Any',
@@ -73,15 +55,6 @@ const PROVIDERS = new Map<string, Provider>(
       image: `${BASE_URL}/Portis.svg`,
       strings: {
         'your Ethereum wallet': 'Portis',
-      },
-    },
-    {
-      id: 'walletconnect',
-      name: 'WalletConnect',
-      type: 'Any',
-      image: `${BASE_URL}/walletconnect.png`,
-      strings: {
-        'your Ethereum wallet': 'WalletConnect',
       },
     },
     {
