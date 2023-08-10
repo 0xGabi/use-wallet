@@ -88,7 +88,7 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
       type: 'optimism',
       fullName: 'OP Mainnet',
       shortName: 'Optimism',
-      explorerUrl: `https://optimistic.etherscan.io/`,
+      explorerUrl: `https://optimistic.etherscan.io`,
       testnet: false,
     },
   ],
